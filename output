@@ -1,17 +1,4 @@
-2K performance run parameters for coremark.
-CoreMark Size    : 666
-Total ticks      : 20210
-Total time (secs): 20.210000
-Iterations/Sec   : 5442.850074
-Iterations       : 110000
-Compiler version : GCC14.2.0
-Compiler flags   : -O2 -march=rv64g -mabi=lp64d -fPIE -static -B/opt/glibc-rv64g/lib -L/opt/glibc-rv64g/lib -DPERFORMANCE_RUN=1  -lrt
-Memory location  : Please put data memory location here
-			(e.g. code in flash, data on heap etc)
-seedcrc          : 0xe9f5
-[0]crclist       : 0xe714
-[0]crcmatrix     : 0x1fd7
-[0]crcstate      : 0x8e3a
-[0]crcfinal      : 0x33ff
-Correct operation validated. See README.md for run and reporting rules.
-CoreMark 1.0 : 5442.850074 / GCC14.2.0 -O2 -march=rv64g -mabi=lp64d -fPIE -static -B/opt/glibc-rv64g/lib -L/opt/glibc-rv64g/lib -DPERFORMANCE_RUN=1  -lrt / Heap
+iterate[0]: before crcu16 crc=bf8a res->crc=8f84
+iterate[0]: after crcu16 crc=bf8a res->crc=7404
+iterate[0]: after crcu16 crc=8036 res->crc=7404
+iterate[0]: after crcu16 crc=8036 res->crc=e714
