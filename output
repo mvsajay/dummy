@@ -1,0 +1,98 @@
+calc_func in list_join pre-crc: flag=7 retval=16191 crc=0000
+calc_func in list_join post-crc: retval=16191 crc=e051
+calc_func in list_join pre-crc: flag=2 retval=21074 crc=e051
+calc_func in list_join post-crc: retval=21074 crc=8580
+calc_func in list_join pre-crc: flag=5 retval=11565 crc=8580
+calc_func in list_join post-crc: retval=11565 crc=2e7d
+calc_func in list_join pre-crc: flag=4 retval=9252 crc=2e7d
+calc_func in list_join post-crc: retval=9252 crc=57ba
+calc_func in list_join pre-crc: flag=4 retval=25700 crc=57ba
+calc_func in list_join post-crc: retval=25700 crc=b519
+calc_func in list_join pre-crc: flag=4 retval=9252 crc=b519
+calc_func in list_join post-crc: retval=9252 crc=3cd1
+calc_func in list_join pre-crc: flag=3 retval=6939 crc=3cd1
+calc_func in list_join post-crc: retval=6939 crc=ba16
+calc_func in list_join pre-crc: flag=3 retval=23387 crc=ba16
+calc_func in list_join post-crc: retval=23387 crc=18f5
+calc_func in list_join pre-crc: flag=3 retval=6939 crc=18f5
+calc_func in list_join post-crc: retval=6939 crc=a10d
+calc_func in list_join pre-crc: flag=2 retval=4626 crc=a10d
+calc_func in list_join post-crc: retval=4626 crc=8549
+calc_func in list_join pre-crc: flag=2 retval=21074 crc=8549
+calc_func in list_join post-crc: retval=21074 crc=ae4a
+calc_func in list_join pre-crc: flag=2 retval=4626 crc=ae4a
+calc_func in list_join post-crc: retval=4626 crc=713a
+matrix_bench: before crc16 crc=713a
+matrix_test mul_const: before crc16 crc=0000
+matrix_test mul_const: after crc16 crc=615f
+matrix_test mul_vect: before matrix_sum=73 crc16 crc=615f
+matrix_test mul_vect: after crc16 crc=88cf
+matrix_test mul_matrix: before crc16 crc=88cf
+matrix_test mul_matrix: after crc16 crc=6669
+matrix_test mul_matrix_bitextract: before crc16 crc=6669
+matrix_test mul_matrix_bitextract: after crc16 crc=1bf1
+matrix_bench: after crc16 crc=1fd7
+calc_func in list_join pre-crc: flag=1 retval=8151 crc=713a
+calc_func in list_join post-crc: retval=8151 crc=bccc
+matrix_bench: before crc16 crc=bccc
+matrix_test mul_const: before crc16 crc=0000
+matrix_test mul_const: after crc16 crc=615f
+matrix_test mul_vect: before matrix_sum=73 crc16 crc=615f
+matrix_test mul_vect: after crc16 crc=88cf
+matrix_test mul_matrix: before crc16 crc=88cf
+matrix_test mul_matrix: after crc16 crc=5664
+matrix_test mul_matrix_bitextract: before crc16 crc=5664
+matrix_test mul_matrix_bitextract: after crc16 crc=9ff5
+matrix_bench: after crc16 crc=8953
+calc_func in list_join pre-crc: flag=1 retval=-30381 crc=bccc
+calc_func in list_join post-crc: retval=-30381 crc=e7a9
+matrix_bench: before crc16 crc=e7a9
+matrix_test mul_const: before crc16 crc=0000
+matrix_test mul_const: after crc16 crc=615f
+matrix_test mul_vect: before matrix_sum=73 crc16 crc=615f
+matrix_test mul_vect: after crc16 crc=88cf
+matrix_test mul_matrix: before crc16 crc=88cf
+matrix_test mul_matrix: after crc16 crc=6669
+matrix_test mul_matrix_bitextract: before crc16 crc=6669
+matrix_test mul_matrix_bitextract: after crc16 crc=1bf1
+matrix_bench: after crc16 crc=813b
+calc_func in list_join pre-crc: flag=1 retval=-32453 crc=e7a9
+calc_func in list_join post-crc: retval=-32453 crc=4aed
+calc_func in list_join pre-crc: flag=0 retval=-29126 crc=4aed
+calc_func in list_join post-crc: retval=-29126 crc=635e
+calc_func in list_join pre-crc: flag=0 retval=24894 crc=635e
+calc_func in list_join post-crc: retval=24894 crc=c1a9
+calc_func in list_join pre-crc: flag=0 retval=-24736 crc=c1a9
+calc_func in list_join post-crc: retval=-24736 crc=a8d7
+calc_func in list_join pre-crc: flag=7 retval=32639 crc=a8d7
+calc_func in list_join post-crc: retval=32639 crc=9e3f
+calc_func in list_join pre-crc: flag=7 retval=16191 crc=9e3f
+calc_func in list_join post-crc: retval=16191 crc=b8c1
+calc_func in list_join pre-crc: flag=6 retval=13878 crc=b8c1
+calc_func in list_join post-crc: retval=13878 crc=54c6
+calc_func in list_join pre-crc: flag=6 retval=30326 crc=54c6
+calc_func in list_join post-crc: retval=30326 crc=d9f5
+calc_func in list_join pre-crc: flag=6 retval=13878 crc=d9f5
+calc_func in list_join post-crc: retval=13878 crc=7c11
+calc_func in list_join pre-crc: flag=3 retval=23387 crc=7c11
+calc_func in list_join post-crc: retval=23387 crc=7a77
+matrix_bench: before crc16 crc=7a77
+matrix_test mul_const: before crc16 crc=0000
+matrix_test mul_const: after crc16 crc=615f
+matrix_test mul_vect: before matrix_sum=73 crc16 crc=615f
+matrix_test mul_vect: after crc16 crc=88cf
+matrix_test mul_matrix: before crc16 crc=88cf
+matrix_test mul_matrix: after crc16 crc=5664
+matrix_test mul_matrix_bitextract: before crc16 crc=5664
+matrix_test mul_matrix_bitextract: after crc16 crc=9ff5
+matrix_bench: after crc16 crc=2ba1
+calc_func in list_join pre-crc: flag=1 retval=11169 crc=7a77
+calc_func in list_join post-crc: retval=11169 crc=9c9f
+calc_func in list_join pre-crc: flag=0 retval=-272 crc=9c9f
+calc_func in list_join post-crc: retval=-272 crc=19ac
+calc_func in list_join pre-crc: flag=5 retval=11565 crc=19ac
+calc_func in list_join post-crc: retval=11565 crc=8761
+calc_func in list_join pre-crc: flag=5 retval=28013 crc=8761
+calc_func in list_join post-crc: retval=28013 crc=8f84
+iterate[1]: before crcu16 crc=bf8a res->crc=8f84
+iterate[1]: after crcu16 crc=bf8a res->crc=7404
